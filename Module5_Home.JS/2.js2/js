@@ -1,0 +1,8 @@
+let x = prompt("Введите значение");
+if(x === "true" || x === "false"){
+    console.log(x + " - логический тип");
+}else if(typeof +x === "number" && !isNaN(x)){
+    console.log(x + " - number");
+}else if(typeof x === "string"){
+    console.log(x + " - строка");
+}else console.log("Тип x не определён");

@@ -1,0 +1,8 @@
+let phone = new Map([
+    ["Samsung", "S10"],
+    ["Iphone", "11 pro"],
+    ["Huawey", "p40"]
+]);
+phone.forEach(function (key, value){
+    console.log("Ключ - " + value + ", значение - " + key);
+});
